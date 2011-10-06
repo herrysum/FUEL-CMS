@@ -294,6 +294,7 @@ $config['tables'] = array(
 	'permissions' => 'fuel_permissions',
 	'user_to_permissions' => 'fuel_user_to_permissions',
 	'users' => 'fuel_users'
+    //settings => 'fuel_settings'
 );
 
 /*

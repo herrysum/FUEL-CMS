@@ -7,5 +7,6 @@
 		<?=lang('fuel_developed_by', FUEL_VERSION)?>
 	</div>
 </div>
+</div> <!-- end #fuel_wrapper -->
 </body>
 </html>

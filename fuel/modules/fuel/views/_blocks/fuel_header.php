@@ -28,7 +28,9 @@
 
 </head>
 <body>
-
+    
+<div id="fuel_wrapper">
+    <div id="fuel_menu_back"></div>
 <div id="fuel_header">
 	<h1 id="site_name"><a href="<?=site_url()?>"><?=$this->config->item('site_name', 'fuel')?></a></h1>
 	<div id="login_logout">

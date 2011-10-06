@@ -217,12 +217,12 @@ fuel.controller.BaseFuelController = jqx.lib.BaseController.extend({
 		
 		$('.multi_delete').live('click', function(e){
 			if ($('.multi_delete:checked').size()){
-				$('#multi_delete').css({display: 'block'});
+				$('#multi_delete').parent().css({display: 'block'});
 			} else {
-				$('#multi_delete').hide();
+				$('#multi_delete').parent().hide();
 			}
 		});
-		$('#multi_delete').hide();
+		$('#multi_delete').parent().hide();
 		
 		$('#rearrange').live('click', function(e){
 			$(this).parent().toggleClass('active');
@@ -960,7 +960,7 @@ fuel.controller.BaseFuelController = jqx.lib.BaseController.extend({
 		
 		// setup rearranging precedence
 		if ($('#precedence').val() != 1){
-			$('#rearrange').hide();
+			$('#rearrange').parent().hide();
 		}
 		if (_this.rearrangeOn){
 			_this.rearrangeItems();
