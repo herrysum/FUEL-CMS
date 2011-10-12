@@ -1,5 +1,5 @@
 <div id="main_top_panel">
-	<h2><a href="<?=fuel_url('manage')?>"><?=lang('section_manage')?></a> &gt; <?=lang('module_manage_cache')?></h2>
+	<h2><a href="<?=fuel_url('manage')?>"><?=lang('section_manage')?></a> &raquo; <?=lang('module_manage_cache')?></h2>
 </div>
 <div class="clear"></div>
 

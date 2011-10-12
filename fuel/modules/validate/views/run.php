@@ -1,7 +1,7 @@
 <?=js('ValidateController', 'validate')?>
 
 <div id="main_top_panel">
-	<h2 class="ico ico_tools_validate"><a href="<?=fuel_url('tools')?>"><?=lang('section_tools')?></a> &gt; <a href="<?=fuel_url('tools/validate')?>"><?=lang('module_validate')?></a> &gt; <?=$validation_type?></h2>
+	<h2 class="ico ico_tools_validate"><a href="<?=fuel_url('tools')?>"><?=lang('section_tools')?></a> &raquo; <a href="<?=fuel_url('tools/validate')?>"><?=lang('module_validate')?></a> &raquo; <?=$validation_type?></h2>
 </div>
 <div class="clear"></div>
 

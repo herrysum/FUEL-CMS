@@ -1,5 +1,5 @@
 <div id="main_top_panel">
-	<h2 class="ico ico_<?=url_title(str_replace('/', '_', $this->module_uri),'_', TRUE)?>"><a href="<?=fuel_url($this->module_uri)?>"><?=$this->module_name?></a> &gt; <?=lang('action_delete')?></h2>
+	<h2 class="ico ico_<?=url_title(str_replace('/', '_', $this->module_uri),'_', TRUE)?>"><a href="<?=fuel_url($this->module_uri)?>"><?=$this->module_name?></a> &raquo; <?=lang('action_delete')?></h2>
 </div>
 <div class="clear"></div>
 

@@ -15,10 +15,11 @@
 		jqx.init('fuel.controller.LoginController', {});
 	</script>
 </head>
-<body>
+<body class="login">
 <div id="login">
-	<div id="login_inner">
-		<img src="<?=img_path('fuel_logo.jpg')?>" width="400" height="100" alt="FUEL CMS" border="0" id="login_logo" />
+    <img src="<?=img_path('fuel_logo_large.png')?>" width="328" height="115" alt="FUEL CMS" border="0" id="login_logo" />
+    <div class="header">Reset Password</div>    
+	<div id="login_inner">	
 		<div id="login_notification" class="notification">
 			<?=$notifications?>
 		</div>

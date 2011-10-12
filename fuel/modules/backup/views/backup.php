@@ -1,5 +1,5 @@
 <div id="main_top_panel">
-	<h2 class="ico ico_tools_backup"><a href="<?=fuel_url('tools')?>"><?=lang('section_tools')?></a> &gt; <?=lang('module_backup')?></h2>
+	<h2 class="ico ico_tools_backup"><a href="<?=fuel_url('tools')?>"><?=lang('section_tools')?></a> &raquo; <?=lang('module_backup')?></h2>
 </div>
 <div class="clear"></div>
 

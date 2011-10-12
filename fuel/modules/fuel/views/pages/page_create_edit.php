@@ -1,5 +1,5 @@
 <div id="main_top_panel">
-	<h2 class="ico ico_pages"><a href="<?=fuel_url($this->module)?>"><?=$this->module_name?></a> &gt; 
+	<h2 class="ico ico_pages"><a href="<?=fuel_url($this->module)?>"><?=$this->module_name?></a> &raquo; 
 	<?=lang('action_'.$action)?><?php if (!empty($data[$this->display_field])) { ?>: <em><?=$data[$this->display_field]?></em><?php } ?></h2>
 </div>
 <div class="clear"></div>

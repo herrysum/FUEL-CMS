@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
  	<title><?=$page_title?></title>
 	<?=css('fuel', FUEL_FOLDER)?>
 	<script type="text/javascript">
@@ -15,10 +16,11 @@
 		jqx.init('fuel.controller.LoginController', {});
 	</script>
 </head>
-<body>
+<body class="login">
 <div id="login">
+    <img src="<?=img_path('fuel_logo_large.png')?>" width="328" height="115" alt="FUEL CMS" border="0" id="login_logo" />
+    <div class="header">Login</div>
 	<div id="login_inner">
-		<img src="<?=img_path('fuel_logo.jpg')?>" width="400" height="100" alt="FUEL CMS" border="0" id="login_logo" />
 		<div id="login_notification" class="notification">
 			<?=$notifications?>
 		</div>

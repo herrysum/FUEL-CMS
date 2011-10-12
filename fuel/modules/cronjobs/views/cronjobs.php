@@ -1,6 +1,6 @@
 <?=js('CronjobsController', 'cronjobs')?>
 <div id="main_top_panel">
-	<h2 class="ico ico_tools_cronjobs"><a href="<?=fuel_url('tools')?>"><?=lang('section_tools')?></a> &gt; <?=lang('module_cronjobs')?></h2>
+	<h2 class="ico ico_tools_cronjobs"><a href="<?=fuel_url('tools')?>"><?=lang('section_tools')?></a> &raquo; <?=lang('module_cronjobs')?></h2>
 </div>
 <div class="clear"></div>
 

@@ -1,6 +1,6 @@
 <?=js('SeoController', 'seo')?>
 <div id="main_top_panel">
-	<h2 class="ico ico_tools_seo_google_keywords"><a href="<?=fuel_url('tools')?>">Tools</a> &gt; Google Keywords</h2>
+	<h2 class="ico ico_tools_seo_google_keywords"><a href="<?=fuel_url('tools')?>">Tools</a> &raquo; Google Keywords</h2>
 </div>
 <div class="clear"></div>
 

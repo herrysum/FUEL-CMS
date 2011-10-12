@@ -203,7 +203,7 @@ class Login extends CI_Controller {
 		$this->form_builder->set_validator($this->users_model->get_validation());
 		
 		// build form
-		$fields['Reset Password'] = array('type' => 'section', 'label' => lang('login_reset_pwd'));
+		//$fields['Reset Password'] = array('type' => 'section', 'label' => lang('login_reset_pwd'));
 		$fields['email'] = array('required' => true, 'size' => 30);
 		$this->form_builder->show_required = false;
 		$this->form_builder->set_fields($fields);

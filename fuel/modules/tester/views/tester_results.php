@@ -1,5 +1,5 @@
 <div id="main_top_panel">
-	<h2 class="ico ico_tools_tester"><a href="<?=fuel_url('tools')?>"><?=lang('section_tools')?></a> &gt; 
+	<h2 class="ico ico_tools_tester"><a href="<?=fuel_url('tools')?>"><?=lang('section_tools')?></a> &raquo; 
 	<a href="<?=fuel_url('tools/tester')?>"><?=lang('module_tester')?></a> &gt;
 	<?=lang('tester_results')?></h2>
 </div>

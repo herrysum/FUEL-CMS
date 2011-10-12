@@ -12,7 +12,7 @@
 </script>
 
 <div id="main_top_panel">
-	<h2 class="ico ico_tools_tester"><a href="<?=fuel_url('tools')?>"><?=lang('section_tools')?></a> &gt; <?=lang('module_tester')?></h2>
+	<h2 class="ico ico_tools_tester"><a href="<?=fuel_url('tools')?>"><?=lang('section_tools')?></a> &raquo; <?=lang('module_tester')?></h2>
 </div>
 <div class="clear"></div>
 
